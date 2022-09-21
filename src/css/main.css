@@ -1,0 +1,98 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+  caption-side: sdas;
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+
+html {
+  display: block;
+  scroll-behavior: smooth;
+  margin: auto;
+  max-width: 390px;
+}
+
+.card {
+  margin: 15px 15px 30px 15px;
+}
+
+.side-widget {
+  background-color: #E00000;;
+  width: 40px;
+  height: 80px;
+}
+
+.card-1 {
+  position: relative;
+}
+
+.card-1 .icon {
+  background-color: #d8d8d8;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.card-2 {
+  position: relative;
+}
+
+.card-2 .overlay {
+  opacity: 0.58;
+  background: #D8D8D8;  
+  height: 44px;
+  width: 360px;
+  position: absolute;
+  bottom: 0;
+}
+
+.card-3 .overlay {
+  opacity: 0.58;
+  background: #D8D8D8;  
+  height: 165px;
+  width: 320px;
+  position: absolute;
+  margin: 20px;
+  bottom: 135px;
+}
